@@ -1,9 +1,11 @@
 h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 body{
     padding: 5%;
     text-align: center;
@@ -25,7 +27,7 @@ button{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     cursor: pointer;
-    width: 50%;
+    width: 25%;
     display: block;
 }
 
@@ -38,16 +40,12 @@ img{
     height: 10%;
 }
 
-.footer{
-    position: fixed;
-    bottom: 0;
-    left: 25%;
-    right: 25%;
-}
-
 @media only screen and (max-width: 800px){
     img{
         width: 30%;
         height: 30%;
+    }
+    button{
+        width: 100%;
     }
 }
